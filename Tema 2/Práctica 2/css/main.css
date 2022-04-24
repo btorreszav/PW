@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.Main {
+    display: -webkit-inline-box;
+    background-image: url('../img/Fondo.jpg');
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2vw;
+}
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 3.5vw;
+}
+h3 {
+    font-size: 3vw;
+}
+h4 {
+    font-size: 2.8vw;
+}
+h5 {
+    font-size: 2.6vw;
+}
+h6 {
+    font-size: 2.4vw;
+}
+div.Barra_Navegación, div.Contenido {
+    float: left;
+}
+div.Barra_Navegación {
+    width: 19.4vw;
+    border-right: 0.1vw solid #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+ul.Elementos_Navegación {
+    list-style-type: none;
+    margin-top: 40vh;
+    margin-left: 2.5vw;
+}
+li.Elemento_Navegación:not(:last-child) {
+    margin-bottom: 5vh;
+}
+a.Link_Elemento_Navegación {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 1vw;
+    font-size: 3vw;
+}
+li a.Link_Elemento_Navegación:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+div.Contenido {
+    width: 80.5vw;
+    background-color: rgba(0, 50, 100, 0.5);
+    overflow-y: scroll
+}
+h1.Nombre_Restaurante {
+    margin-top: 40vh;
+    margin-left: 10vw;
+    font-size: 5vw;
+    text-shadow: -4px 3px 0 #0a0e27;
+}
+div.Sub_Menu, div.Contenido_Menu{
+    display: inline-grid;
+    width: 90%;
+    margin: 1vw;
+}
+div.Sub_Menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+}
+img {
+    width: 50vw;
+}
+img.ico {
+    width: 1.5vw;
+}
+div.Info_Contacto {
+    margin-left: 10vw;
+}
+@media only screen and (max-width: 900px) and (min-height: 600px) {
+    div.Main {
+        background-image: url('../img/Fondo_Telefono.jpg');
+        display: block;
+        font-size: 2.5vh;
+    }
+    h1 {
+        font-size: 5vh;
+    }
+    h2 {
+        font-size: 3.5vh;
+    }
+    h3 {
+        font-size: 3vh;
+    }
+    h4 {
+        font-size: 2.8vh;
+    }
+    h5 {
+        font-size: 2.6vh;
+    }
+    h6 {
+        font-size: 2.5vh;
+    }
+    div.Barra_Navegación, div.Contenido {
+        width: 100%;
+    }
+    div.Barra_Navegación {
+        display: inline-block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 9.7vh;
+        border-bottom: 0.3vh solid #fff;
+        border-right: none;
+    }
+    ul.Elementos_Navegación {
+        overflow: hidden;
+        height: 5vh;
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    li.Elemento_Navegación {
+        float: left;
+    }
+    a.Link_Elemento_Navegación {
+        display: block;
+        font-size: 3vh;
+    }
+    li a.Link_Elemento_Navegación:hover {
+        background-color: rgba(255, 255, 255, 1);
+        color: black;
+    }
+    div.Contenido {
+        height: 90vh;
+    }
+    h1.Nombre_Restaurante {
+        margin-top: 40vh;
+        margin-left: 10vw;
+        font-size: 5vh;
+    }
+    div.Sub_Menu a {
+        font-size: 2vh;
+    }
+    img {
+        width: 100vw;
+    }
+    img.ico {
+        width: 2.5vh;
+    }
+}
