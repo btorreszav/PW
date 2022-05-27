@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+}
+table.tabla_general {
+    border: 1px solid;
+}
+th {
+    text-align: center;
+}
+td {
+    border-color: black;
+    padding: 0.5rem;
+}
+td.alinear_contenido_celda_centro {
+    text-align: center;
+}
+td.alinear_contenido_celda_derecha {
+    text-align: right;
+}
+.inputs_texto {
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+}
+table.tabla_opciones {
+    table-layout: fixed;
+}
+table.tabla_opciones tbody td {
+    width: 33%;
+    padding-left: 2vw;
+}
+td.contenido_celda_con_espaciado {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+input.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+}
+input.boton:hover {
+    background-color: #3e8e41;
+}
